@@ -1,0 +1,25 @@
+{
+  "name": "node-rabbit-mq",
+  "version": "1.0.0",
+  "description": "## Spin up a rabbit mq docker instance",
+  "main": "publisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "node publisher.js",
+    "consume": "node consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terance98/node-rabbit-mq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terance98/node-rabbit-mq/issues"
+  },
+  "homepage": "https://github.com/Terance98/node-rabbit-mq#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
