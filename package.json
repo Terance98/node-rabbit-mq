@@ -4,9 +4,8 @@
   "description": "## Spin up a rabbit mq docker instance",
   "main": "publisher.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "node publisher.js",
-    "consume": "node consumer.js"
+    "publish": "node src/publisher.js",
+    "consume": "node src/consumer.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/Terance98/node-rabbit-mq#readme",
   "dependencies": {
-    "amqplib": "^0.8.0"
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.4.4"
   }
 }
